@@ -9,32 +9,32 @@
     <link rel="stylesheet" href="../css/allProducts.css">
 </head>
 <body>
-            <div class="box">
-                    <div class="content">
-                        <header></header>
-                        <section>
-                            <div class="section" id="section">
-                             
-                            </div>
-                            <script type="text/html" id="all-products">
-                                {{each list product}}
-                                <div>
-                                    <a class="frist" href="javascript:;">
-                                        <img src="{{product.url}}" alt="{{product.describe}}">
-                                    </a>
-                                    <a class="last" href="javscript:;">
-                                        <span>{{product.describe}}</span>
-                                        <br>
-                                        <span>{{product.message}}</span>
-                                        <em>{{product.price}}</em>
-                                    </a>
-                                </div>
-                                    {{/each}}
-                            </script>
-                        </section>
-                        <footer></footer>
+    <div class="box">
+            <div class="content">
+                <header></header>
+                <section>
+                    <div class="section" id="section">
+                        
                     </div>
-                </div>
+                    <script type="text/html" id="all-products">
+                        {{each list product}}
+                        <div>
+                            <a class="frist" href="javascript:;">
+                                <img src="{{product.url}}" alt="{{product.describe}}">
+                            </a>
+                            <a class="last" href="javscript:;">
+                                <span>{{product.describe}}</span>
+                                <br>
+                                <span>{{product.message}}</span>
+                                <em>{{product.price}}</em>
+                            </a>
+                        </div>
+                            {{/each}}
+                    </script>
+                </section>
+                <footer></footer>
+            </div>
+        </div>
 	<script src="../libs/require/require.min.js" data-main="../js/allProducts"></script>
 </body>
 </html>
