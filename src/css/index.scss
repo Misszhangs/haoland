@@ -1,0 +1,153 @@
+@import "model/react.scss";
+@import 'model/header.scss';
+@import 'model/footer.scss';
+
+// 初始化样式
+.content
+{
+    width:996px;
+    margin:0 auto;
+    overflow: hidden;
+}
+header
+{
+    height:125px;
+}
+// 主体部分样式开始
+.section
+{
+    width:100%;
+}
+// 轮播图样式
+.swiper-container
+{
+    cursor: pointer;
+    #prov{
+        width:37px;
+        height: 40px;
+        opacity: 0.8;
+        transition: all 0.5s;
+        background: url('/images/index/spirit1.png') 0 0 no-repeat;
+    }
+    #next
+    {
+        width:37px;
+        height: 40px;
+        opacity: 0.8;
+        transition: all 0.5s;
+        background: url('/images/index/spirit1.png') 0 -40px no-repeat;
+    }
+}
+//产品图片展示
+.product
+{
+    //top样式
+    &-top
+    {
+        width:100%;
+        height:270px;
+        margin-top:10px;
+        &-r
+        {
+            float: left;
+          
+            a {
+                display: inline-block;
+                width:325px;
+                height:220px;
+                overflow: hidden;
+                img{
+                    width:325px;
+                    height:220px;
+                    transition: all 1s;
+                }
+                img.ac{
+                    transform: scale(1.1);
+                } 
+            }
+            p{
+                background: #87d0e3;
+                width: 325px;
+                height: 50px;
+                margin-top:-2px;
+                cursor: pointer;
+                span{
+                    color: #fff;
+                    font-size: 14px;
+                    display: inline-block;
+                    margin-left: 15px;
+                    margin-top:9px;
+                }
+            }
+            
+        }
+        div:nth-child(2)
+            {
+                margin: 0 10px; 
+            }
+    }
+    //center样式
+    &-center
+    {
+        width:100%;
+        height: 420px;
+        margin-top: 10px;
+        img{
+            width: 240px;
+            height: 420px;
+            float: left;
+            margin-right: 10px;
+        }
+        video{
+            width:745px;
+            height:420px;
+            float: left;
+            cursor: pointer;
+        }
+    }
+    //bootom样式
+    &-bottom
+    {
+        width:100%;
+        height:270px;
+        margin-top:10px;
+        div
+        {
+            float: left;
+            a {
+                display: inline-block;
+                width:325px;
+                height:220px;
+                overflow: hidden;
+                img{
+                    width:325px;
+                    height:220px;
+                    transition: all 1s;
+                }
+                img.ac{
+                    transform: scale(1.1);
+                } 
+            }
+            p{
+                background: #87d0e3;
+                width: 325px;
+                height: 50px;
+                margin-top:-2px;
+                cursor: pointer;
+                span{
+                    color: #fff;
+                    font-size: 14px;
+                    display: inline-block;
+                    margin-left: 15px;
+                    margin-top:9px;
+                }
+            }
+            
+        }
+        div:nth-child(2)
+            {
+                margin: 0 10px; 
+            }
+    }
+}
+// 主体部分样式结束

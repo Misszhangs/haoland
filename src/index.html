@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>好利来-首页</title>
+		<link rel="stylesheet" href="/libs/swiper/css/swiper.min.css">
+		<link rel="stylesheet" href="/libs/font_5t6szkv54rr/iconfont.css">
+		<link rel="stylesheet" href="/css/index.css">
+	</head>
+	<body>
+		<div class="box">
+			<div class="content">
+				<header>
+				</header>
+				<!-- 主体部分开始 -->
+				<section>
+					<div class="section">
+						<!--轮播开始 -->
+						<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide" ><img src="images/index/lun1.jpg"></div>
+									<div class="swiper-slide"><img src="images/index/lun2.jpg"></div>
+									<div class="swiper-slide"><img src="images/index/lun3.jpg"></div>
+								</div>
+								<!-- 如果需要分页器 -->
+								<div id="btn" class="swiper-pagination"></div>
+								<!-- 如果需要导航按钮 -->
+								<div id="prov" class="swiper-button-prev"></div>
+								<div id="next" class="swiper-button-next"></div>	
+						</div>
+						<!-- 轮播图结束 -->
+						<!--产品 图片展示部分开始-->
+						<div class="product">
+							<div id="product-top" class="product-top">
+								
+							</div>
+							<script type="text/html" id="product-one">
+								{{each dataList product}}
+								<div class="product-top-r">
+										<a href="javascript:;">
+												<img src="{{product.src}}" alt="{{product.describe1}}">
+										</a>
+										<p>
+											<span>{{product.describe1}}</span><br>
+											<span>{{product.describe2}}</span>
+										</p>
+									</div>	
+									{{/each}}
+							</script>
+							<div class="product-center">
+								<img src="images/index/a1.jpg" alt="详细联系">
+								<video loop="false" controls poster=https://img.alicdn.com/imgextra/i2/2455221099/TB2ZMW8hHZnBKNjSZFGXXbt3FXa_!!2455221099.jpg>
+									<source src="http://cloud.video.taobao.com//play/u/2455221099/p/1/e/6/t/1/50071310842.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div id="product-bottom" class="product-bottom">
+									
+							</div>
+							<script type="text/html" id="product-two">
+								{{each dataList product}}
+								<div class="product-top-r">
+										<a href="javascript:;">
+												<img src="{{product.src}}" alt="{{product.describe1}}">
+										</a>
+										<p>
+											<span>{{product.describe1}}</span><br>
+											<span>{{product.describe2}}</span>
+										</p>
+									</div>	
+									{{/each}}
+							</script>
+						</div>
+						<!-- 产品图片展示部分结束 -->
+					</div>
+				</section>
+				<!-- 主体部分结束 -->
+				<footer></footer>
+			</div>
+		</div>
+		<script src="libs/require/require.min.js" data-main="js/index"></script>
+	</body>
+</html>

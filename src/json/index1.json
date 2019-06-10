@@ -1,0 +1,22 @@
+{
+   "indexData" :[
+        {
+            "id":1,
+            "src":"/images/index/pic1.jpg",
+            "describe1":"经典系列",
+            "describe2":"CLASSIC SERIES"
+        },
+        {
+            "id":2,
+            "src":"/images/index/pic2.jpg",
+            "describe1":"儿童系列",
+            "describe2":"CHILDREN SERIES"
+        },
+        {
+            "id":3,
+            "src":"/images/index/pic3.jpg",
+            "describe1":"尊爱系列",
+            "describe2":"RESPECT AND LOV..."
+        }
+   ]
+}

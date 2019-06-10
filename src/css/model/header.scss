@@ -1,0 +1,127 @@
+// 头部部分样式
+header {
+    h1{
+        margin-top: 36px;
+        float: left;
+    }
+   .center{
+       height:52px;
+       margin-top:-53px;
+       float: left; 
+       margin-left: 151px;
+       width:695px;
+       li{
+           float: left;
+           padding-left: 47px;
+           padding-right: 42px;
+           width: 84px;
+           height:50px;
+           border-right: 1px solid #6bc4df;
+           a{
+               color: #6bc4df;
+               font-size: 12px;
+               text-decoration: none;
+              
+             
+               span{
+                   display: inline-block;
+                   height: 25px;
+                   line-height: 30px;
+               }
+           }
+       }
+       li:last-child
+       {
+           border-right: none;
+       }
+       li:nth-child(2)
+       {
+           position: relative;
+           &:hover .Products-list{
+            display: block;
+           }
+       }
+       .Products-list
+       {
+        width:125px;
+        height:170px;
+        background: #ffffff;;
+        position: absolute;
+        left:12px;
+        top:50px;
+        z-index: 1000;
+        display: none;
+        li{
+            border: none;
+            margin: 10px 0 -20px 0;
+            padding-left:35px ;
+            a{
+                color: #6bc4df;
+                font-size: 12px;
+            }
+        }
+       }
+   }
+   .right{
+       width:149px;
+       margin-top:-80px; 
+       height:73px;
+       float: right;
+       li{
+           float: left;
+           margin-right: 8px;
+          a{
+            color: #6bc4df;
+           span{
+            font-size: 10px;
+           }
+            i{
+                width:10px;
+                height:10px;
+                display: inline-block;
+                margin-right:2px; 
+               
+            }
+          }
+       }
+       li:last-child
+       {
+        margin-right: 0;
+       }
+       &-center
+       {
+        margin-top: 30px;
+        width: 108px;
+        height:15px;
+        color: #6bc4df;
+        font-size: 10px;
+        img{
+            width:15px;
+            height: 15px;
+            margin-right: 5px;
+        } 
+       }
+       &-bottom{
+           position: relative;
+           input{
+               border: none;
+               height: 20px;
+               width: 88px;
+               border: 1px solid #6bc4df;
+               margin-top:6px; 
+               cursor: pointer;
+               outline: none;
+               padding-left: 20px;
+           }
+           i{
+            position: absolute;
+            left:1px;
+            top:10px;
+            width:18px;
+            height:18px;
+            background: url('/images/index/spirit2.png') 1px 1px no-repeat;
+            display: inline-block;
+           }
+       }
+   }
+}

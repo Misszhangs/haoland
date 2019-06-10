@@ -1,0 +1,23 @@
+{
+    "indexData" :[
+        {
+            "id":1,
+            "src":"/images/index/b1.jpg",
+            "describe1":"配送包",
+            "describe2":"DELIVERY PACKAGE"
+        },
+        {
+            "id":2,
+            "src":"/images/index/b2.jpg",
+            "describe1":"店面形象",
+            "describe2":"STORE IMAGES"
+        },
+        {
+            "id":3,
+            "src":"/images/index/b3.jpg",
+            "describe1":"配送服务",
+            "describe2":"DELIVERY SERVICE"
+        }
+        
+   ]
+}
